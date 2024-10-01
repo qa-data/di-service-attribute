@@ -1,0 +1,17 @@
+{
+	"name": "qa-data/di-service-attribute",
+	"description": "Automatic class registration using a simple attribute for Nette",
+	"type": "library",
+	"require": {
+		"php": ">=8.1",
+		"nette/di": "^3.2"
+	},
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"QaData\\DiAttribute\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
